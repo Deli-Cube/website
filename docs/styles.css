@@ -49,10 +49,9 @@ footer {
     background-color: #333;
     color: white;
     padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    bottom: 0px;
     text-align: center;
+    z-index: 3;
 }
 
 header {

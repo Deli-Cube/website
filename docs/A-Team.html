@@ -62,14 +62,24 @@
             }
 
             footer {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 99%;
-    text-align: center;
-}
+                background-color: #333;
+                color: white;
+                padding: 1em;
+                bottom: 0px;
+                text-align: center;
+                z-index: 3;
+            }
+
+            .profil-karticka:hover {
+                transform: scale(1.2);
+                transition: transform 0.3s ease;
+                z-index: -10;
+            }
+
+            svg:hover {
+                transform: scale(1.2);
+                transition: transform 0.3s ease;
+            }
 
 
         </style>
@@ -164,8 +174,7 @@
             </div>
         </div>
 
-            <p></p>
-    
+            <p><br></p>
             <footer class="footer">
                 <p>2023 © DeliCube</p>
                 <p>
@@ -179,6 +188,6 @@
     </body>
     
 
-
+        
     </html>
     

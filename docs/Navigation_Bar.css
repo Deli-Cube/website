@@ -13,8 +13,8 @@ ul {
   top: 0;
   width: 100%;
   left: 0;
-}
-
+  z-index: 3;
+  }
 li {
   float: left;
 }
@@ -29,6 +29,8 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #d1c73f;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .navbar {
