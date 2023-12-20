@@ -54,6 +54,7 @@ img {
 
 html {
     font-family: "Palanquin Dark", "Open Sans", sans-serif;
+    background-color: #1d1d1d;
 }
 
 footer {
@@ -81,7 +82,7 @@ header {
             font-weight: 700;
             padding-top: 80px;
             text-align: center;
-            color: rgb(49, 49, 49);
+            color: #b3b3b3;
             animation: infinite 0.5s pulse;
             transition: 0.25s;
         }
@@ -105,7 +106,7 @@ header {
         }
 
         .nadpis {
-            color:  #ffef08;
+            color:  #d1c73f;
             padding-top: 100px;
             text-align: center;
             font-size: 6rem;
@@ -122,7 +123,7 @@ header {
         }
 
         .join {
-            background-color: rgb(3, 154, 3);
+            background-color: #d1c73f;
             padding: 8px 10px;
             max-width: 180px;
             align-items: center;
@@ -130,6 +131,7 @@ header {
             margin-left: auto;
             margin-right: auto;
             margin-top: 50px;
+            transition: transform 0.3s ease;
         }
        
         .click {
@@ -138,15 +140,14 @@ header {
         }
 
         .join:hover {
-            background-color: rgb(5, 201, 5);
+            background-color: #d1c73f;
             transform: scale(1.1);
-            transition: transform 0.3s ease;
         }
         
         #grad1 {
             height: 150px;
             width: 100%;
-            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+            background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #1d1d1d);
             z-index: 5;
             top: 100%;
 
@@ -156,10 +157,12 @@ header {
             margin-left: auto;
             margin-right: auto;
             display: inline;
+            color: #b3b3b3;
         }
 
         .info1 {
             background-color: rgb(212, 87, 29);
+            color: #b3b3b3;
         }
 
         .why {
@@ -174,6 +177,7 @@ header {
             font-size: 3rem;
             font-weight: 750;
             text-align: center;
+            color: #b3b3b3;
         }
 
         .box-why {
@@ -186,7 +190,7 @@ header {
     
             .profil-karticka {
                 width: 330px;
-                background-color: rgb(213, 213, 213);
+                background-color: rgb(43, 43, 43);
                 text-align: center;
                 margin: 10px;
                 border-radius: 3%;
@@ -196,14 +200,18 @@ header {
 
             .icon-karticka {
                 width: 200px;
-                background-color: rgb(213, 213, 213);
+                background-color: rgb(43, 43, 43);
                 text-align: center;
                 margin: 10px;
                 border-radius: 3%;
                 display: inline-block;           
                 font-size: small;
+                transition: transform 0.3s ease;
             }
-    
+
+            .icon-karticka:hover {
+                transform: scale(1.05);
+            }  
             .icon {
                 width: 100px;
                 height: 100px;
@@ -211,17 +219,22 @@ header {
                 max-width: 70%;
                 height: auto;
                 padding-top: 10px;
+                transition: rotate 0.3s ease ;
+            }
+
+            .icon:hover {
+                rotate: 5deg;
             }
     
             .profil-udaje {
                 font-size: 20px;
-                color: rgb(56, 56, 56);
+                color: #b3b3b3;
 
             }
 
             .icon-udaje {
                 font-size: 20px;
-                color: rgb(56, 56, 56);
+                color: #b3b3b3;
                 font-weight: 600;
             }
 
@@ -278,30 +291,23 @@ header {
         <p class="cat">OUR MINIGAMES</p>
         <div class="box-cat">
             <div class="icon-karticka">
-                <img src="pictures/Update-icon.png" class="icon">
+                <img src="pictures/BedWars-minigame.png" class="icon">
                 <p class="icon-udaje">BedWars</p>
             </div>
             <div class="icon-karticka">
-                <img src="pictures/Comunity-icon.png" class="icon">
-                <p class="icon-udaje">Parcour</p>
+                <img src="pictures/Parkour-minigame.png" class="icon">
+                <p class="icon-udaje">Parkour</p>
             </div>
             <div class="icon-karticka">
-                <img src="pictures/A-team-icon.png" class="icon">
-                <p class="icon-udaje">Survival</p>
+                <img src="pictures/BuildSwap-minigame.png" class="icon">
+                <p class="icon-udaje">BuildSwap</p>
             </div>
             <div class="icon-karticka">
-                <img src="pictures/A-team-icon.png" class="icon">
-                <p class="icon-udaje">Survival</p>
+                <img src="pictures/Golf-minigame.png" class="icon">
+                <p class="icon-udaje">Golf</p>
             </div>
             <div class="icon-karticka">
-                <img src="pictures/A-team-icon.png" class="icon">
-                <p class="icon-udaje">Survival</p>
-            </div>
-            <div class="icon-karticka">
-                <img src="pictures/A-team-icon.png" class="icon">
-                <p class="icon-udaje">Survival</p>
-            </div>            <div class="icon-karticka">
-                <img src="pictures/A-team-icon.png" class="icon">
+                <img src="pictures/Survival-minigame.png" class="icon">
                 <p class="icon-udaje">Survival</p>
             </div>
         </div>
