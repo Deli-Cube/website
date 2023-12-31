@@ -8,6 +8,7 @@
     <style>
         html {
             font-family: "Palanquin Dark", "Open Sans", sans-serif;
+            background-color: #1d1d1d;
         }
    
         .box-line {
@@ -17,7 +18,7 @@
         }
 
         .box {
-            background-color: rgb(213, 213, 213);
+            background-color: rgb(43, 43, 43);
             border-radius: 8px;
             width: 450px;
             max-width: 500px;
@@ -35,7 +36,7 @@
             max-height: 340px;
             border-radius: 4px;
             align-items: center;
-            background-color: rgb(207, 207, 207);
+            background-color: rgb(45, 45, 45);
             transition: transform 0.3s ease;
         }
 
@@ -85,6 +86,13 @@
             transform: rotate(1deg);
         }
 
+        .Nazov {
+            color: #b3b3b3;
+        }
+
+        .popis {
+            color: #b3b3b3;
+        }
     </style> 
     
     <body>
@@ -95,6 +103,14 @@
                 <li><a href="News.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i> NEWS</a></li>
                 <li><a href="Contact.html"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> CONTACTS</a></li>
                 <li><a href="Rules.html"><i class="fa fa-book" aria-hidden="true"></i> RULES</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">LANGUAGE</button>
+                    <div class="dropdown-content">
+                    <a href="#"><img src="pictures/united-kingdom.png"  style="max-width: 20px;"> English</a>
+                    <a href="#"><img src="pictures/slovakia.png" style="max-width: 20px;"> Slovakia</a>
+                    <a href="#"><img src="pictures/czech-republic.png" style="max-width: 20px;"> Czech</a>
+                    </div>
+                  </div></li>
             </ul>
         </nav>
     </body> 
@@ -102,6 +118,14 @@
     <body>
         <div class="karta">
             <div class="box-line">
+                
+                <div class="box">
+                    <div class="stav-div"><p class="novinka">novinka</p></div>
+                    <img src="pictures/Otaznik.png" class="img">
+                    <h2 class="nazov">Nové minihry</h2>
+                    <p class="popis">Pridali sme nové minihry (BedWars a Parcour)</p>
+                </div>
+
                 <div class="box">
                     <div class="stav-div"><p class="novinka">novinka</p></div>
                     <img src="pictures/Logo.png" class="img">
@@ -114,13 +138,6 @@
                     <img src="pictures/lobby2.png" class="img">
                     <h2 class="nazov">Nové lobby</h2>
                     <p class="popis">Nové lobby je tu! Útulné, moderné a pripravené <br> vás privítať. Tešíme sa na vás!</p>
-                </div>
-
-                <div class="box">
-                    <div class="stav-div"><p class="---">stav</p></div>
-                    <img src="pictures/Otaznik.png" class="img">
-                    <h2 class="nazov">Nazov</h2>
-                    <p class="popis">Popis</p>
                 </div>
 
                 </div>
@@ -149,7 +166,7 @@
     
                 </div> 
             </div>
-        <p></p>
+        <p><br></p>
         </div>
     </body>
 

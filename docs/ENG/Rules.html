@@ -1,27 +1,55 @@
+<!DOCTYPE html>
 <html>
- <head>    
-    <link rel="stylesheet" href="Navigation_Bar.css">
-    <title>DeliCube-Contact</title>
-    <link rel="icon" type="image/png" href="pictures/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>    
+<link rel="stylesheet" href="Navigation_Bar.css">
+<title>DeliCube-Rules</title>
+<link rel="icon" type="image/png" href="pictures/Logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     <style>
         html {
             font-family: "Palanquin Dark", "Open Sans", sans-serif;
+            background-color: #1d1d1d;
         }
 
         footer {
-    background-color: #333;
-    color: white;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
 
+        .box {
+            padding-top: 50px;
+            padding-left: 40px;
+            margin-top: 40px;
+            color: #585858;
+        }
+
+        .main {
+            color: #b3b3b3;
+            font-size: 30px;
+            font-weight: 600;
+            padding-bottom: 60px;
+        }
+
+        .rules {
+            color: #b3b3b3;
+            font-size: 20px;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+
+        .end {
+            color: #d43737;
+            font-size: 25px;
+            font-weight: 600;
+            
+        }
     </style>
-
     <body>
         <nav>
             <ul>
@@ -33,110 +61,31 @@
                 <li><div class="dropdown">
                     <button class="dropbtn">LANGUAGE</button>
                     <div class="dropdown-content">
-                    <a href="#"><img src="pictures/united-kingdom.png"  style="max-width: 20px;"> English</a>
-                    <a href="#"><img src="pictures/slovakia.png" style="max-width: 20px;"> Slovakia</a>
-                    <a href="#"><img src="pictures/czech-republic.png" style="max-width: 20px;"> Czech</a>
+                    <a href="/docs/ENG/Rules.html"><img src="pictures/united-kingdom.png"  style="max-width: 20px;"> English</a>
+                    <a href="/docs/SK/Rules.html"><img src="pictures/slovakia.png" style="max-width: 20px;"> Slovakia</a>
+                    <a href="/docs/CZ/Rules.html"><img src="pictures/czech-republic.png" style="max-width: 20px;"> Czech</a>
                     </div>
                   </div></li>
             </ul>
         </nav>
 
-            <style>
-                html {
-                    background-color: #1d1d1d;
-                    font-family: "Palanquin Dark", "Open Sans", sans-serif;
-                }
-
-                .social-icons {
-                    display: flex;
-                    justify-content: center; 
-                    max-width: 600px;
-                    margin: 0 auto;
-                }
-        
-        
-                .social-icons a {
-                    text-decoration: none;
-                    color: #333;
-                    padding: 10px;
-                    border-radius: 5px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 10px;
-                }
-        
-                .social-icons img {
-                    width: 250px;
-                    height: auto;
-                    margin-bottom: 5px;
-                }
-        
-                h1 {
-                    text-align: center;
-                    margin-top: 150px;
-                    color: #b3b3b3;
-                }
-        
-                .insta {
-                    color: #405DE6;
-                    font-weight: bold;
-                }
-        
-                .dis {
-                    color: #7289da;
-                    font-weight: bold;
-                }
-        
-                .you {
-                    color: #FF0000;
-                    font-weight: bold;
-                }
-        
-                .tik {
-                    color: #25F4EE;
-                    font-weight: bold;
-                }
-
-                svg:hover {
-                    transform: scale(1.2);
-                    transition: transform 0.3s ease;
-                }
-
-                .link {
-                    background-color: rgb(43, 43, 43);
-                    padding-left: 15px;
-                    transition: transform 0.3s ease;
-                }
-
-                .link:hover {
-                    transform: scale(1.1);
-                }
-
-            </style>
-
-        <body>
-            <h1>Naše sociálne siete</h1>
-            <div class="social-icons">
-                <a href="https://instagram.com/delicubenetwork?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="link">
-                    <img src="pictures/QR instagram.png" alt="Instagram">
-                    <p class="insta">Instagram</p>
-                </a>
-                <a href="https://discord.com/" target="_blank" class="link">
-                    <img src="https://via.placeholder.com/250" alt="Discord">
-                    <p class="dis">Discord</p>
-                </a>
-                <a href="https://www.youtube.com/" target="_blank" class="link">
-                    <img src="pictures/QR youtube.png" alt="YouTube">
-                    <p class="you">YouTube</p>
-                </a>
-                <a href="https://www.tiktok.com/" target="_blank" class="link">
-                    <img src="https://via.placeholder.com/250" alt="TikTok">
-                    <p class="tik">TikTok</p>
-                </a>
-            </div>
-        
-        </body>        
+        <div class="box">
+            <p>
+                <span class="main">DeliCube rules:</span> <br>
+                <p><br></p>
+                <span class="rules">-No Hacking or Advantageous Modifications: Any use of hacks or mods that give unfair advantages is strictly prohibited.</span> <br>
+                <p></p>
+                <span class="rules">-Exploitation: Exploiting game mechanics or bugs for personal gain or disrupting server play is not allowed.</span> <br>
+                <p></p>
+                <span class="rules">-Lag-causing Actions: Creating lag intentionally or using machines that cause server performance issues is prohibited.</span> <br>
+                <p></p>
+                <span class="rules">-Bug Reporting: Always report bugs through proper channels. Exploiting unreported bugs for personal gain is forbidden.</span> <br>
+                <p></p>
+                <span class="rules">-Impersonation: Do not impersonate other players or moderators on the network. Being genuine and using one's own identity is expected.</span> <br>
+                <p><br></p>
+                <span class="end">Remember, following these rules helps create a fair and enjoyable gaming environment for everyone on the DeliCube Network!</span> <br>
+            </p>
+        </div>
 
         <footer class="footer">
             <p>2023 © DeliCube</p>
@@ -149,4 +98,3 @@
         </footer>
     </body> 
     </html>
-    
