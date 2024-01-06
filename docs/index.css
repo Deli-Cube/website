@@ -1,14 +1,3 @@
-<html>
-<head>  
-    <link rel="stylesheet" href="Navigation_Bar.css">
-
-    <title>DeliCube</title>
-    <link rel="icon" type="image/png" href="pictures/Logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/162f23b009.js" crossorigin="anonymous"></script>
-<head>
-    <style>
-
 h1 {
     margin-top: 60px;
     text-align: center;
@@ -89,7 +78,7 @@ header {
         }
 
         .profil {
-            background-image: url(/docs/pictures/Forest.jpg);
+            background-image: url(pictures/Forest.jpg);
             background-repeat: no-repeat;
             min-width: 100%;
             height: 70%;
@@ -100,7 +89,7 @@ header {
 
         .sec {
             width: 100%;
-            background-image: url(/docs/pictures/Forest.jpg);
+            background-image: url(pictures/Forest.jpg);
             background-repeat: no-repeat;
             background-size: auto;
             background-size: 100%;
@@ -137,7 +126,7 @@ header {
        
         .click {
             text-align: center;
-            color: #979797;
+            color: #a7a7a7;
         }
 
         .join:hover {
@@ -245,98 +234,3 @@ header {
                 display: inline;
                 max-width: 100px;
             }
-
-            .icon-link {
-                max-width: 20px;
-                max-height: 20px;
-            }
-    </style>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
-            <li><a href="A-Team.html"><i class="fa fa-users" aria-hidden="true"></i></i> A-TEAM</a></li>
-            <li><a href="News.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i> NEWS</a></li>
-            <li><a href="Contact.html"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> CONTACTS</a></li>
-            <li><a href="Rules.html"><i class="fa fa-book" aria-hidden="true"></i> RULES</a></li>
-            <li><div class="dropdown">
-                <button class="dropbtn">LANGUAGE</button>
-                <div class="dropdown-content">
-                <a href="/docs/ENG/index.html"><img src="/docs/pictures/united-kingdom.png"  style="max-width: 20px;"> English</a>
-                <a href="/docs/SK/index.html"><img src="/docs/pictures/slovakia.png" style="max-width: 20px;"> Slovakia</a>
-                <a href="/docs/CZ/index.html"><img src="/docs/pictures/czech-republic.png" style="max-width: 20px;"> Czech</a>
-                </div>
-              </div></li>
-        </ul>
-    </nav>
-
-    <div class="sec">
-        <p class="nadpis">DELICUBE</p>
-        <div id="grad1"></div>
-    </div>
-
-    <div class="join">
-        <p class="join-text">deli-cube.net <i class="fas fa-play" style="line-height: 1; color: rgb(255, 255, 255);"></i></p>
-        <p class="click">CLICK TO JOIN</p>
-    </div>
-    
-    <div class="info">
-        <p class="cat">WHY DELICUBE</p>
-        <div class="box-why">
-            <div class="profil-karticka">
-                <img src="/docs/pictures/Update-icon.png" class="icon">
-                <h1 class="profil-udaje">Frequent updates</h1>
-                <p class="rank"><b>We add updates to the servers regularly <br>so you don't get bored</b></p>
-            </div>
-            <div class="profil-karticka">
-                <img src="/docs/pictures/Comunity-icon.png" class="icon">
-                <h1 class="profil-udaje">Super community</h1>
-                <p class="rank"><b>On our server you will find an awesome   community with active players</b></p>
-            </div>
-            <div class="profil-karticka">
-                <img src="/docs/pictures/A-team-icon.png" class="icon">
-                <h1 class="profil-udaje">High quality A-team</h1>
-                <p class="rank"><b>We have a quality admin team <br>that can be relied on</b></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="info-m">
-        <p class="cat">OUR MINIGAMES</p>
-        <div class="box-cat">
-            <div class="icon-karticka">
-                <img src="/docs/pictures/BedWars-minigame.png" class="icon">
-                <p class="icon-udaje">BedWars</p>
-            </div>
-            <div class="icon-karticka">
-                <img src="/docs/pictures/Parkour-minigame.png" class="icon">
-                <p class="icon-udaje">Parkour</p>
-            </div>
-            <div class="icon-karticka">
-                <img src="/docs/pictures/BuildSwap-minigame.png" class="icon">
-                <p class="icon-udaje">BuildSwap</p>
-            </div>
-            <div class="icon-karticka">
-                <img src="/docs/pictures/Golf-minigame.png" class="icon">
-                <p class="icon-udaje">Golf</p>
-            </div>
-            <div class="icon-karticka">
-                <img src="/docs/pictures/Survival-minigame.png" class="icon">
-                <p class="icon-udaje">Survival</p>
-            </div>
-        </div>
-    </div>
-    <p><br></p>
-    <footer class="footer">
-        <p>2023 © DeliCube</p>
-        <p>
-            <a href=""><img src="/docs/pictures/icon-discord.png" class="icon-link"></a>
-            <a href=""><img src="/docs/pictures/icon-instagram.png" class="icon-link"></a>
-            <a href=""><img src="/docs/pictures/icon-tiktok.png" class="icon-link"></a>
-            <a href=""><img src="/docs/pictures/icon-youtube.png" class="icon-link"></a>
-        </p>
-    </footer>
-</body> 
-</html>
-
-    
