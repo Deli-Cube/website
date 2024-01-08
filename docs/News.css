@@ -66,6 +66,7 @@ footer {
   padding: 1em;
   bottom: 0px;
   text-align: center;
+  z-index: 3;
 }
 
 .box:hover {
@@ -83,4 +84,9 @@ footer {
 
 .popis {
   color: #b3b3b3;
+}
+
+.icon-link {
+  max-width: 20px;
+  max-height: 20px;
 }

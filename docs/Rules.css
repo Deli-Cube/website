@@ -39,3 +39,8 @@ footer {
   font-size: 25px;
   font-weight: 600;
 }
+
+.icon-link {
+  max-width: 20px;
+  max-height: 20px;
+}
