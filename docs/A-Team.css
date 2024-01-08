@@ -71,3 +71,69 @@ svg:hover {
   max-width: 20px;
   max-height: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d1c73f, #6b6620);
+  border-radius: 10px;
+}
+
+.join-form {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #e4e4e4;
+  height: 40px;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.input:focus {
+  border: 2px solid #d1c73f;
+}
+
+::placeholder {
+  color: #a5a5a5;
+  font-family: "Palanquin Dark", "Open Sans", sans-serif;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
+#join-button {
+  height: 35px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 50px !important;
+}
+
+textarea::placeholder {
+  padding-top: 2px;
+}
+
+.input:hover {
+  transform: scale(1.05);
+  border: 2px solid #d1c73f;
+}
+
+textarea:hover {
+  transform: scale(1.05);
+}

@@ -86,3 +86,16 @@ svg:hover {
   max-width: 20px;
   max-height: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d1c73f, #6b6620);
+  border-radius: 10px;
+}

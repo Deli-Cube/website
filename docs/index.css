@@ -82,7 +82,7 @@ header {
 .sec {
   width: 100%;
   background-image: url(pictures/Forest.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   background-size: auto;
   background-size: 100%;
 }
@@ -228,4 +228,17 @@ header {
 .icon-link {
   max-width: 20px;
   max-height: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d1c73f, #6b6620);
+  border-radius: 10px;
 }
