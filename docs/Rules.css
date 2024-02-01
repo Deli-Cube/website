@@ -7,10 +7,9 @@ footer {
   background-color: #333;
   color: white;
   padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  bottom: 0px;
   text-align: center;
+  z-index: 3;
 }
 
 .box {
@@ -46,7 +45,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -72,7 +71,7 @@ footer {
 }
 
 .rule-badge-y {
-  background-color: #d1a53f;
+  background-color: #c49b3c;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;

@@ -72,8 +72,13 @@ svg:hover {
   max-height: 20px;
 }
 
+svg {
+  max-width: 20px;
+  max-height: 20px;
+}
+
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {

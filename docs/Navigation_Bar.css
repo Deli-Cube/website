@@ -51,9 +51,8 @@ html {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
-  left: 50rem;
+  margin-left: 550px;
   width: 50px;
 }
 
@@ -88,7 +87,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
